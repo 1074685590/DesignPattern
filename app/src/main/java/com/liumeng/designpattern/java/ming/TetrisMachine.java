@@ -18,7 +18,7 @@ public class TetrisMachine {
         System.out.println("快速落下");
     }
 
-    public void  transform() {
+    public void transform() {
         System.out.println("改变形状");
     }
 }

@@ -4,7 +4,7 @@ package com.liumeng.designpattern.java.die;
  * Created by liumeng on 2020/12/1 0001.
  * Describe:
  */
-public class CompanyHui implements Company{
+public class CompanyHui implements Company {
     private Employee[] array = new Employee[3];
 
     public CompanyHui() {

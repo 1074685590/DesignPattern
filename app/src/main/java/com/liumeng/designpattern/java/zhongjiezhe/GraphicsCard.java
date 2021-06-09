@@ -5,7 +5,7 @@ public class GraphicsCard extends Colleague {
         super(mediator);
     }
 
-    public void vidoePlay(String data){
-        System.out.println("视频:"+data);
+    public void vidoePlay(String data) {
+        System.out.println("视频:" + data);
     }
 }

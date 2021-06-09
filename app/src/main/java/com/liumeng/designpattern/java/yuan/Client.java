@@ -13,7 +13,7 @@ public class Client {
         originDoc.addImage("图片3");
         originDoc.showDocument();
 
-        wordDocument doc2 =  originDoc.clone();
+        wordDocument doc2 = originDoc.clone();
         doc2.showDocument();
         doc2.setText("这是修改过的doc2文本");
         doc2.showDocument();

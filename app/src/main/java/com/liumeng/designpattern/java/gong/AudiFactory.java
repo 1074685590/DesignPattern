@@ -7,7 +7,8 @@ package com.liumeng.designpattern.java.gong;
 public abstract class AudiFactory {
     /**
      * 某车型的工厂方法
-     * @param clz  具体的SUV型号类型
+     *
+     * @param clz 具体的SUV型号类型
      * @param <T>
      * @return 具体型号的SUV车对象
      */

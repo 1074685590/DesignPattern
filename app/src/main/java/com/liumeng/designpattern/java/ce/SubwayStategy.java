@@ -7,6 +7,7 @@ package com.liumeng.designpattern.java.ce;
 public class SubwayStategy implements CalculateStrategy {
     /**
      * 6公里内3元,6-12公里4元, 12-22公里5元,22-32公里6元
+     *
      * @param km
      * @return
      */
@@ -18,7 +19,7 @@ public class SubwayStategy implements CalculateStrategy {
             return 4;
         } else if (km > 12 && km < 22) {
             return 5;
-        }else if (km > 22 && km < 32) {
+        } else if (km > 22 && km < 32) {
             return 6;
         }
         return 7;

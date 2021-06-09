@@ -12,7 +12,7 @@ public class VoltAdapter implements FiveVolt {
         mVolt220 = volt220;
     }
 
-    public int getVolt220(){
+    public int getVolt220() {
         return mVolt220.getVolt220();
     }
 

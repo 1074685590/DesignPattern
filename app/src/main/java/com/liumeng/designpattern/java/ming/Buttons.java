@@ -5,9 +5,9 @@ package com.liumeng.designpattern.java.ming;
  * Describe:
  */
 public class Buttons {
-    private LeftCommand mLeftCommand;
-    private RightCommand mRightCommand;
-    private FallCommand mFallCommand;
+    private LeftCommand      mLeftCommand;
+    private RightCommand     mRightCommand;
+    private FallCommand      mFallCommand;
     private TransformCommand mTransformCommand;
 
     public void setLeftCommand(LeftCommand leftCommand) {

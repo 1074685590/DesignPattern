@@ -9,7 +9,8 @@ public abstract class Computer {
     protected String mDisplay;
     protected String mOs;
 
-    protected Computer(){}
+    protected Computer() {
+    }
 
     //设置CPU核心数
     public void setBoard(String board) {

@@ -6,7 +6,7 @@ package com.liumeng.designpattern.java.die;
  */
 public class Employee {
     private String name;
-    private int age;
+    private int    age;
     private String sex;
     private String position;
 

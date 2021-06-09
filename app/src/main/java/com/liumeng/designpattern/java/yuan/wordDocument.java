@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Describe:
  */
 public class wordDocument implements Cloneable {
-    private String mText;
+    private String            mText;
     private ArrayList<String> mImages = new ArrayList<>();
 
     public wordDocument() {
@@ -15,7 +15,7 @@ public class wordDocument implements Cloneable {
     }
 
     @Override
-    protected wordDocument clone()  {
+    protected wordDocument clone() {
         try {
             wordDocument doc = (wordDocument) super.clone();
             doc.mText = this.mText;
@@ -44,11 +44,11 @@ public class wordDocument implements Cloneable {
         this.mImages.add(img);
     }
 
-    public void showDocument(){
+    public void showDocument() {
         System.out.println("----------------word content start----------------------");
-        System.out.println("Text: "+mText);
+        System.out.println("Text: " + mText);
         for (String image : mImages) {
-            System.out.println("image name:"+ image);
+            System.out.println("image name:" + image);
         }
         System.out.println("-----------------word content end---------------------");
     }

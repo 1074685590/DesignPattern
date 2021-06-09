@@ -11,7 +11,7 @@ public class ReportUtil {
             System.out.println("经理:" + leader.name + ",新产品数量:" + leader.getProducts());
         } else {
             Engineer engineer = (Engineer) staff;
-            System.out.println("工程师:"+engineer.name+",kpi:"+engineer.kpi);
+            System.out.println("工程师:" + engineer.name + ",kpi:" + engineer.kpi);
         }
     }
 }

@@ -6,6 +6,8 @@ package com.liumeng.designpattern.java.chou;
  */
 public abstract class CarFactory {
     public abstract ITire createtire();
+
     public abstract IEngin creteEngine();
+
     public abstract IBrake createBrake();
 }

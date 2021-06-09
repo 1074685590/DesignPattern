@@ -21,12 +21,14 @@ public abstract class Dir {
 
     /**
      * 添加一个文件或文件夹
+     *
      * @param dir 文件或文件夹
      */
     public abstract void addDir(Dir dir);
 
     /**
      * 移除一个文件或文件夹
+     *
      * @param dir
      */
     public abstract void rmDir(Dir dir);
@@ -43,15 +45,17 @@ public abstract class Dir {
 
     /**
      * 获取文件夹下所有的文件或文件夹
+     *
      * @return 文件夹下所有的文件或子文件夹
      */
     public abstract List<Dir> getFiles();
 
     /**
      * 获取文件或文件夹名
+     *
      * @return 文件或文件夹名
      */
-    public String getName(){
+    public String getName() {
         return name;
     }
 }

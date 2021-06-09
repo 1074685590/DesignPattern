@@ -5,8 +5,8 @@ public class SoundCard extends Colleague {
         super(mediator);
     }
 
-    public void playSound(String data){
-        System.out.println("音频:"+ data);
+    public void playSound(String data) {
+        System.out.println("音频:" + data);
     }
 
 }

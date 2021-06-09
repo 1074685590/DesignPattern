@@ -1,4 +1,5 @@
 package com.liumeng.designpattern.java.dai;
+
 public interface ILawsuit {
 
     /**

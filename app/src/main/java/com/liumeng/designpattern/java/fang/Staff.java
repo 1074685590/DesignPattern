@@ -8,7 +8,7 @@ import java.util.Random;
  */
 public abstract class Staff {
     public String name;
-    public int kpi;
+    public int    kpi;
 
     public Staff(String name) {
         this.name = name;

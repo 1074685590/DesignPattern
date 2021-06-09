@@ -7,7 +7,7 @@ import java.util.List;
  * Created by liumeng on 2020/12/1 0001.
  * Describe:
  */
-public class CompanyMin implements Company{
+public class CompanyMin implements Company {
     private List<Employee> list = new ArrayList<>();
 
     public CompanyMin() {

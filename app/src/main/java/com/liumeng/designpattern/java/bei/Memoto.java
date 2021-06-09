@@ -5,8 +5,8 @@ package com.liumeng.designpattern.java.bei;
  * Describe:
  */
 public class Memoto {
-    public int mCheckpoint;
-    public int mLifeValue;
+    public int    mCheckpoint;
+    public int    mLifeValue;
     public String mWeapon;
 
     @Override

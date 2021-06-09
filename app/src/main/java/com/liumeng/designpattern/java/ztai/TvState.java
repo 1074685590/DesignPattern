@@ -6,7 +6,10 @@ package com.liumeng.designpattern.java.ztai;
  */
 public interface TvState {
     public void nextChannel();
+
     public void prevChannel();
+
     public void turnUp();
+
     public void turnDown();
 }

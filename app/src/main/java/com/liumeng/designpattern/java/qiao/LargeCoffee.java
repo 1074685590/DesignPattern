@@ -11,6 +11,6 @@ public class LargeCoffee extends Coffee {
 
     @Override
     public void makeCoffee() {
-        System.out.println("大杯的"+impl.addSomething()+"咖啡");
+        System.out.println("大杯的" + impl.addSomething() + "咖啡");
     }
 }

@@ -16,7 +16,7 @@ public class Engineer extends Staff {
         visitor.visit(this);
     }
 
-    public int getCodeLines(){
+    public int getCodeLines() {
         return new Random().nextInt(10 * 10000);
     }
 }

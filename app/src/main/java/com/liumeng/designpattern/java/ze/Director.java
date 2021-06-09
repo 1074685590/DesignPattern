@@ -7,7 +7,7 @@ package com.liumeng.designpattern.java.ze;
 public class Director extends Leader {
     @Override
     protected void handle(int money) {
-        System.out.println("主管批复报销"+money+"元");
+        System.out.println("主管批复报销" + money + "元");
     }
 
     @Override

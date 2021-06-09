@@ -5,15 +5,17 @@ package com.liumeng.designpattern.java.dan;
  * Describe: 静态内部类
  */
 public class Singleton3 {
-    private Singleton3(){}
+    private Singleton3() {
+    }
 
     public static Singleton3 getInstance() {
         return SingletonHolder.sInstance;
     }
+
     /**
      * 静态内部类
      */
-    private static class SingletonHolder{
+    private static class SingletonHolder {
         private static final Singleton3 sInstance = new Singleton3();
     }
 }

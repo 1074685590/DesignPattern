@@ -4,8 +4,8 @@ package com.liumeng.designpattern.java.ztai;
  * Created by liumeng on 2020/12/7 0007.
  * Describe:
  */
-public class TvController implements PowerController{
-   TvState mTvState;
+public class TvController implements PowerController {
+    TvState mTvState;
 
     public void setTvState(TvState mTvState) {
         this.mTvState = mTvState;
@@ -23,19 +23,19 @@ public class TvController implements PowerController{
         System.out.println("关机了");
     }
 
-    public void nextChannel(){
+    public void nextChannel() {
         mTvState.nextChannel();
     }
 
-    public void preChannel(){
+    public void preChannel() {
         mTvState.prevChannel();
     }
 
-    public void turnUp(){
+    public void turnUp() {
         mTvState.turnUp();
     }
 
-    public void turnDown(){
+    public void turnDown() {
         mTvState.turnDown();
     }
 }

@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class MinIterator implements Iterator {
     private List<Employee> list;
-    private int position;
+    private int            position;
 
     public MinIterator(List<Employee> list) {
         this.list = list;
@@ -16,7 +16,7 @@ public class MinIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return !(position > list.size() -1 || list.get(position) == null);
+        return !(position > list.size() - 1 || list.get(position) == null);
     }
 
     @Override

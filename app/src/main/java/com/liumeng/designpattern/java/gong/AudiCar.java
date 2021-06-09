@@ -10,6 +10,7 @@ public abstract class AudiCar {
      * 定义汽车的一个行为方法 车可以启动开走
      */
     public abstract void drive();
+
     /**
      * 车 可以自动巡航
      */

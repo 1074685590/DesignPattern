@@ -10,6 +10,6 @@ public class Test {
         Builder builder = new MacbookBuilder();
         Director director = new Director(builder);
         director.construct("英特尔主板", "Retina显示器");
-        System.out.println("Computer Info :"+builder.create().toString());
+        System.out.println("Computer Info :" + builder.create().toString());
     }
 }

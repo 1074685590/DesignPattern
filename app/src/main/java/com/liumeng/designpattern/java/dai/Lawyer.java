@@ -1,5 +1,6 @@
 package com.liumeng.designpattern.java.dai;
-public class Lawyer implements ILawsuit{
+
+public class Lawyer implements ILawsuit {
 
     private ILawsuit mLawsuit; //持有一个具体被代理者的引用
 

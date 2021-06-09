@@ -9,6 +9,7 @@ public abstract class Leader {
 
     /**
      * 处理报账请求
+     *
      * @param money 能批复的报账额度
      */
     public final void handleRequest(int money) {
@@ -23,12 +24,14 @@ public abstract class Leader {
 
     /**
      * 处理报账行为
+     *
      * @param money 具体金额
      */
     protected abstract void handle(int money);
 
     /**
      * 自身能批复的额度权限
+     *
      * @return
      */
     protected abstract int limit();

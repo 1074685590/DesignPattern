@@ -9,7 +9,7 @@ public class ExpensiveCloth extends PersonCloth {
         super(person);
     }
 
-    private void dressShirt(){
+    private void dressShirt() {
         System.out.println("穿件短袖");
     }
 

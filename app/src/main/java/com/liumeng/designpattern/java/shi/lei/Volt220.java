@@ -5,7 +5,7 @@ package com.liumeng.designpattern.java.shi.lei;
  * Describe:
  */
 public class Volt220 {
-    public int getVolt220(){
+    public int getVolt220() {
         return 220;
     }
 }

@@ -16,11 +16,11 @@ public class Coder implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        System.out.println("Hi,"+name+",DevtechFrotier更新啦,内容:"+arg);
+        System.out.println("Hi," + name + ",DevtechFrotier更新啦,内容:" + arg);
     }
 
     @Override
     public String toString() {
-        return "码农 :"+name;
+        return "码农 :" + name;
     }
 }

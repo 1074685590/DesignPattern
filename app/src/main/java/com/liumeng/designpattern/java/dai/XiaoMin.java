@@ -1,5 +1,6 @@
 package com.liumeng.designpattern.java.dai;
-public class XiaoMin implements ILawsuit{
+
+public class XiaoMin implements ILawsuit {
 
     @Override
     public void submit() {

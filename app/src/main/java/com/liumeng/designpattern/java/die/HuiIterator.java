@@ -6,7 +6,7 @@ package com.liumeng.designpattern.java.die;
  */
 public class HuiIterator implements Iterator {
     private Employee[] array;
-    private int position;
+    private int        position;
 
     public HuiIterator(Employee[] array) {
         this.array = array;

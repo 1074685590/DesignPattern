@@ -6,5 +6,6 @@ package com.liumeng.designpattern.java.ztai;
  */
 public interface PowerController {
     public void powerOn();
+
     public void powerOff();
 }

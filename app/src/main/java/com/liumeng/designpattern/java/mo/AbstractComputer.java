@@ -14,7 +14,7 @@ public abstract class AbstractComputer {
         System.out.println("硬件检查");
     }
 
-    protected void  loadOS() {
+    protected void loadOS() {
         System.out.println("载入操作系统");
     }
 

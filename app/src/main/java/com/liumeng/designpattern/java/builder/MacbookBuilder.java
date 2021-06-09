@@ -6,6 +6,7 @@ package com.liumeng.designpattern.java.builder;
  */
 public class MacbookBuilder extends Builder {
     private Computer mComputer = new Macbook();
+
     @Override
     public void buildBoard(String board) {
         mComputer.setBoard(board);

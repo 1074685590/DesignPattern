@@ -6,6 +6,8 @@ package com.liumeng.designpattern.java.wai;
  */
 public interface Camera {
     public void open();
+
     public void takePicture();
+
     public void close();
 }
